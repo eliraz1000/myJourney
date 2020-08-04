@@ -35,31 +35,54 @@ hr {
     background-image: url(img/Barcelona.jpg);
     rotate: 180%;
 }
+.barcelona:hover{
+    background-image: url(img/SpainFlag.png);
+    transition: 0.5s;
+}
 
 .argentina {
     background-image: url(img/Argentina.jpg);
 }
-
+.argentina:hover{
+    background-image: url(img/ArgentinaFlag.png);
+    transition: 0.5s;
+}
 .uruguay {
     background-image: url(img/Uruguay.jpg);
 }
-
+.uruguay:hover{
+    background-image: url(img/UruguayFlag.jpg);
+    transition: 0.5s;
+}
 .chile {
     background-image: url(img/Chile.jpg);
 }
-
+.chile:hover{
+    background-image: url(img/ChileFlag.png);
+    transition: 0.5s;
+}
 .brazil {
     background-image: url(img/Brazil.jpg);
+}
+.brazil:hover{
+    background-image: url(img/BrazilFlag.png);
+    transition: 0.5s;
 }
 
 .peru {
     background-image: url(img/Peru.jpg);
 }
-
+.peru:hover{
+    background-image: url(img/PeruFlag.png);
+    transition: 0.5s;
+}
 .colombia {
     background-image: url(img/Colombia.jpg);
 }
-
+.colombia:hover{
+    background-image: url(img/ColombiaFlag.png);
+    transition: 0.5s;
+}
 .empty {
     border-color: rgba(0, 0, 0, 0);
     -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 1);
